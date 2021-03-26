@@ -209,7 +209,7 @@ if test "x$v_from_git" != x; then
       *) # Append the suffix only if there isn't one already.
           case $v in
             *-dirty) ;;
-            *) v="$v-dirty" ;;
+            *) v="$v" ;;
           esac ;;
   esac
 fi
