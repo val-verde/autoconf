@@ -136,10 +136,10 @@ distclean-local:
 	then rm -f ChangeLog; fi
 
 include $(srcdir)/bin/local.mk
-include $(srcdir)/doc/local.mk
+# include $(srcdir)/doc/local.mk
 include $(srcdir)/lib/local.mk
-include $(srcdir)/man/local.mk
-include $(srcdir)/tests/local.mk
+# include $(srcdir)/man/local.mk
+# include $(srcdir)/tests/local.mk
 
 # Perl coverage statistics.
 PERL_COVERAGE_DB = `pwd`/cover_db
